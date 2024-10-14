@@ -65,7 +65,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'c0907190-node-app'
+          app-name: 'c0907704-node-app'
           slot-name: 'Production'
           package: .
           
